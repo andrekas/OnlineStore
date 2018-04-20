@@ -1,9 +1,12 @@
 <template>
   <div id="app">
-    <nav>
-      <div class="container">
+    <nav class="navbar navbar-expand-sm sticky-top">
+      <div class="container-fluid">
         <ul class="nav__left">
-        <h3>Some online store</h3>
+          <li><router-link to="/">
+            <h4>Online store</h4>
+          </router-link>
+          </li>
         </ul>
         <ul class="nav__right">
           <li><router-link to="/cart"><i class="fa fa-shopping-cart"></i>

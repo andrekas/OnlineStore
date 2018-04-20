@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div class="title">
-      <h1>Tooted</h1>
-    </div>
+    <div class="title" style="text-align: center">
+      <h1 style="margin: 0">Tooted</h1>
     <product-list></product-list>
+  </div>
   </div>
 </template>
 
@@ -23,7 +23,9 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.title{
+  background: #F7F8FB;
+  border-bottom: 20px;
+}
 </style>
